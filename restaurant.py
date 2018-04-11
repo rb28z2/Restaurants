@@ -1,11 +1,5 @@
 class Restaurant:
-    'Base class for all restaurants'
-
-    # rating = 0
-    # vegetarian = 0
-    # glutenFree = 0
-    # nutFree = 0
-    # fishFree = 0
+    """ Base class for restaurant object """
 
     def __init__(self, name, rating, vegetarian, glutenFree, nutFree, fishFree, regular):
         self.name = name
